@@ -17,7 +17,7 @@ public:
 
 	~CustomHeap();
 
-	void addRoad(Road road);
+	void addRoad(Road * road);
 
 	void fixHeap(int index);
 
@@ -26,7 +26,7 @@ public:
 	void printHeap();
 
 private:
-	Road *roadsHeap;
+	Road ** roadsHeap;
 
 	int heapSize;
 

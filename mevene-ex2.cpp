@@ -54,7 +54,6 @@ for (int i = 0; i < numOfActions; i++)
 }
 
 //print the bridges of a road
-heap->printHeap();
 
 // afer that get the actions in the form of:
 // "a"= init the roads array with the linked lists to each one

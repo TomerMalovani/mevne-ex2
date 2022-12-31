@@ -16,7 +16,7 @@ public:
 	void setLowestBridge(int bridgeHeight);
 	void printBridges();
 private:
-	int lowestBridge;
+	int lowestBridge=0;
 	int bridgeCount;
 	Linkedlist bridges;
 };
